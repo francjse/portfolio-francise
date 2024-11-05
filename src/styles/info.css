@@ -1,0 +1,53 @@
+/* Base styles for desktop layout */
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-align: center;
+  min-height: 126.5vh; /* Ensures it always fills at least the full viewport height */
+  width: 100%;
+  padding: 20px; /* Adds some padding around the SVG */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.about-svg {
+  width: 100%;
+  max-width: 86%; /* Limits SVG width for large screens */
+  max-height: 100%; /* Ensures the SVG doesn’t exceed the viewport height */
+  height: auto;
+  filter: brightness(1.2) drop-shadow(4px 4px 3px rgba(255, 255, 255, 0.3)); /* Increase brightness and add a shadow */
+  margin-top: -200px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 24%; /* Adjust to match SVG positioning */
+  left: 53%; /* Adjust to match SVG positioning */
+  width: 22%; /* Match the SVG box width */
+  height: 22%; /* Match the SVG box height */
+  z-index: -1; /* Ensure it overlays the SVG */
+  object-fit:cover;
+  pointer-events: none; /* Allow interactions to pass through */
+}
+
+/* MacBook Pro 13-inch and 15-inch screens */
+@media (max-width: 1400px) {
+  #content {
+    min-height: 115vh; /* Adjust height for smaller screens */
+    padding: 15px;
+  }
+
+  .about-svg {
+    max-width: 1000px;
+    margin-top: -180px;
+  }
+
+  .video-overlay {
+    top: 24%; /* Adjust to match SVG positioning */
+    left: 53%; /* Adjust to match SVG positioning */
+    width: 22%; /* Match the SVG box width */
+    height: 19%; /* Match the SVG box height */
+  }
+}

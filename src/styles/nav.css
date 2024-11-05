@@ -1,0 +1,149 @@
+/* Logo container to keep it fixed in the top-left corner */
+.logo-container {
+    position: fixed;
+    top: 2%; /* Spacing from the top */
+    left: 8%; /* Spacing from the left */
+    z-index: 1001; /* Ensures it stays on top of other elements */
+}
+
+.logo-icon {
+    width: 3rem; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Navigation styling */
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 3%;
+    right: 30rem; /* Align navigation links to the right */
+    gap: 3.4rem;
+    z-index: 1000; /* Ensures it stays below the logo */
+}
+
+/* Remove unnecessary individual transforms */
+.nav-works,
+.nav-frames,
+.nav-contact {
+    transform: none;
+}
+
+/* Link styling */
+a.nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+    color: white; /* Default link color */
+    transition: opacity 0.3s ease;
+}
+
+.page-title {
+    font-size: 1.1rem;
+    cursor: default;
+    text-transform: uppercase; /* Optional styling for titles */
+}
+
+.nav-link {
+    opacity: 0.7;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    font-weight:500;
+}
+
+.nav-link.current {
+    opacity: 1;
+    font-weight: 100; /* Highlights the current page */
+    background-color: white;
+    color: black;
+}
+
+/* MacBook Pro 13-inch and 15-inch screens */
+@media (max-width: 1400px) {
+    .logo-container {
+        top: 1.5%;
+        left: 8%;
+    }
+
+    .nav {
+        top: 2%;
+        right: 24%;
+        gap: 5%;
+    }
+
+    .page-title {
+        font-size: 1rem;
+    }
+}
+
+/* iPad landscape */
+@media (max-width: 1100px) {
+    .logo-container {
+        top: 1.5%;
+        left: 4%;
+    }
+
+    .logo-icon {
+        width: 2.5rem;
+    }
+
+    .nav {
+        top: 2%;
+        right: 12rem;
+        gap: 2rem;
+    }
+
+    .page-title {
+        font-size: 1rem;
+    }
+}
+
+/* iPad portrait */
+@media (max-width: 768px) {
+    .logo-container {
+        top: 1.5%;
+        left: 3%;
+    }
+
+    .logo-icon {
+        width: 2rem;
+    }
+
+    .nav {
+        top: 2%;
+        right: 8rem;
+        gap: 1.5rem;
+    }
+
+    .page-title {
+        font-size: 0.9rem;
+    }
+}
+
+/* iPhone screens */
+@media (max-width: 480px) {
+    .logo-container {
+        top: 1rem;
+        left: 2%;
+    }
+
+    .logo-icon {
+        width: 1.8rem;
+    }
+
+    .nav {
+        top: 4%;
+        right: 1rem;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: flex-start; /* Stack links vertically */
+    }
+
+    .page-title {
+        font-size: 0.8rem;
+    }
+}
