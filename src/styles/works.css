@@ -1,7 +1,92 @@
+/* Base styles for desktop layout */
 #content {
     display: flex;
-    justify-content:center;
-    align-items:center;
-    height: 100vh;
+    flex-direction: column; /* Stack items vertically */
+    align-items:stretch;
+    background-color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: auto;
+  }
+
+  #svg-container {
+    position: relative; /* Establish a containing block for absolute positioning */
+    display: flex; /* Ensure the SVG and its child video align properly */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+  }
+  
+  .about-svg {
+    width: 93%;
+    height: auto; /* Fully utilize the container's height */   
+    filter: brightness(1.5) drop-shadow(4px 4px 1.75px rgba(255, 255, 255, 0.2)); /* Increase brightness and add a shadow */
+  }
+  
+  .video-overlay {
+    position: absolute; /* Position relative to the #svg-container */
+    top: 32.5%; /* Align with the top of the SVG container */
+    left: 53.2%; /* Align with the left of the SVG container */
+    width: 21.9%; /* Match the SVG container width */
+    height: 27.5%; /* Match the SVG container height */
+    z-index: -1; /* Ensure it is behind the SVG */
+    object-fit: cover; /* Ensure the video scales properly */
+  }
+  
+  #portfolio-container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: wheat;
+    text-align: center;
+    overflow: auto; /* Allow scrolling for long content */
+  }
+  
+  #portfolio-container h2 {
+    margin-top: 0;
     font-size: 2rem;
-}
+    color: #333;
+  }
+  
+  #portfolio-container p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1400px) {
+    #content {
+      min-height: 115vh; /* Adjust height for smaller screens */
+      padding: 15px;
+    }
+  
+    #svg-container {
+      max-width: 90%; /* Slightly reduce size for smaller screens */
+      margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+  
+    .about-svg {
+      height: auto; /* Allow SVG to scale with its width */
+    }
+  
+    .video-overlay {
+      width: 100%; /* Keep width aligned with the SVG */
+      height: 100%; /* Keep height aligned with the SVG */
+    }
+  }
+  
+  /* Additional breakpoint for smaller devices */
+  @media (max-width: 768px) {
+    #svg-container {
+      max-width: 85%; /* Further reduce size for smaller screens */
+      margin-top: 5px;
+    }
+  
+    .about-svg {
+      max-width: 85%; /* Align with reduced container width */
+    }
+  }

@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
   <defs>
     <style>
       .cls-1 {
         letter-spacing: 0em;
       }
 
-      .cls-2, .cls-3, .cls-4, .cls-5 {
+      .cls-2, .cls-3 {
         fill: #fff;
       }
 
-      .cls-2, .cls-6 {
+      .cls-2, .cls-4 {
         font-size: 25px;
       }
 
-      .cls-2, .cls-7, .cls-5, .cls-8, .cls-9 {
+      .cls-2, .cls-5, .cls-6, .cls-7 {
         font-family: SpaceGrotesk-Light, 'Space Grotesk';
         font-variation-settings: 'wght' 300;
         font-weight: 300;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.03em;
       }
 
       .cls-10 {
@@ -25,161 +33,123 @@
       }
 
       .cls-11 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-12 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-13 {
         stroke: #000;
         stroke-width: .75px;
       }
 
-      .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+      .cls-11, .cls-12, .cls-13, .cls-14 {
         fill: none;
       }
 
-      .cls-13, .cls-14, .cls-16, .cls-17 {
+      .cls-11, .cls-12, .cls-14 {
         stroke-miterlimit: 10;
       }
 
-      .cls-18 {
+      .cls-15 {
         letter-spacing: -.03em;
       }
 
-      .cls-19 {
+      .cls-16 {
         letter-spacing: -.01em;
       }
 
-      .cls-6 {
+      .cls-4 {
         font-family: SpaceGrotesk-Medium, 'Space Grotesk';
         font-variation-settings: 'wght' 500;
         font-weight: 500;
       }
 
-      .cls-14, .cls-16, .cls-17 {
+      .cls-12, .cls-14 {
         stroke: #fff;
       }
 
-      .cls-20 {
+      .cls-17 {
         letter-spacing: -.03em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        fill: #4d4d4d;
+      }
+
+      .cls-5, .cls-7 {
+        font-size: 12px;
+      }
+
+      .cls-6 {
+        font-size: 18px;
+      }
+
+      .cls-6, .cls-20 {
+        fill: #999;
       }
 
       .cls-21 {
         letter-spacing: 0em;
       }
 
-      .cls-4 {
-        font-family: SpaceGrotesk-Regular, 'Space Grotesk';
-        font-size: 26px;
-        font-variation-settings: 'wght' 400;
-      }
-
-      .cls-22 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-7 {
-        fill: #4d4d4d;
-      }
-
-      .cls-7, .cls-8 {
-        font-size: 12px;
-      }
-
-      .cls-23 {
-        letter-spacing: 0em;
-      }
-
-      .cls-24, .cls-8 {
+      .cls-22, .cls-7 {
         fill: #1a1a1a;
       }
 
-      .cls-5, .cls-9 {
-        font-size: 18px;
-      }
-
-      .cls-16 {
-        stroke-width: 1.5px;
-      }
-
-      .cls-17 {
+      .cls-14 {
         stroke-width: 2px;
       }
 
-      .cls-25 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-26 {
+      .cls-23 {
         fill: #b3b3b3;
-      }
-
-      .cls-27 {
-        letter-spacing: -.02em;
       }
     </style>
   </defs>
-  <g id="Layer_2" data-name="Layer 2">
-    <rect width="1920" height="1080"/>
+  <rect class="cls-3" x="1047.9" y="722.05" width="217.86" height="22.53"/>
+  <text class="cls-2" transform="translate(1024.14 709.02)"><tspan x="0" y="0">Hi</tspan><tspan class="cls-17" x="22.3" y="0">,</tspan><tspan class="cls-21" x="27.3" y="0" xml:space="preserve"> I’m Francise</tspan><tspan class="cls-17" x="175.05" y="0">.</tspan><tspan class="cls-16" x="0" y="32.74">A</tspan><tspan x="15.35" y="32.74" xml:space="preserve">                                    based in London</tspan><tspan class="cls-17" x="447.87" y="32.74">.</tspan></text>
+  <text class="cls-5" transform="translate(1732.07 648.57)"><tspan class="cls-8" x="0" y="0">.</tspan><tspan x="2.4" y="0" xml:space="preserve"> 024</tspan></text>
+  <text class="cls-5" transform="translate(381.98 648.34)"><tspan x="0" y="0" xml:space="preserve">ANIMATION     </tspan><tspan class="cls-15" x="77.42" y="0" xml:space="preserve"> -</tspan><tspan class="cls-1" x="85.37" y="0" xml:space="preserve">      DESIGN     </tspan><tspan class="cls-15" x="160.23" y="0" xml:space="preserve"> -</tspan><tspan x="168.18" y="0" xml:space="preserve">      3D</tspan></text>
+  <g>
+    <polyline class="cls-14" points="1830.7 632.01 1830.7 648.34 1814.37 648.34"/>
+    <polyline class="cls-14" points="1814.37 350.69 1830.7 350.69 1830.7 367.02"/>
   </g>
-  <g id="Layer_1" data-name="Layer 1">
-    <rect class="cls-3" x="1022.37" y="52.05" width="64.22" height="21.3"/>
-    <rect class="cls-3" x="1047.9" y="722.05" width="217.86" height="22.53"/>
-    <text class="cls-9" transform="translate(1025.8 68.68)"><tspan x="0" y="0">ABOU</tspan><tspan class="cls-27" x="47.12" y="0">T</tspan><tspan x="57.28" y="0"> </tspan></text>
-    <text class="cls-5" transform="translate(1145.82 68.68)"><tspan x="0" y="0">WORKS </tspan></text>
-    <text class="cls-4" transform="translate(89.04 70.68)"><tspan x="0" y="0">FRANCISE</tspan></text>
-    <text class="cls-5" transform="translate(1269.55 68.68)"><tspan x="0" y="0">FRAMES</tspan></text>
-    <text class="cls-5" transform="translate(1398.87 68.68)"><tspan x="0" y="0">CONTAC</tspan><tspan class="cls-27" x="68.85" y="0">T</tspan></text>
-    <g>
-      <polyline class="cls-16" points="1830.7 58.14 1830.7 69.14 1819.7 69.14"/>
-      <line class="cls-16" x1="1819.7" y1="58.14" x2="1830.7" y2="69.14"/>
-    </g>
-    <text class="cls-2" transform="translate(1024.14 709.02)"><tspan x="0" y="0">Hi</tspan><tspan class="cls-20" x="22.3" y="0">,</tspan><tspan class="cls-23" x="27.3" y="0" xml:space="preserve"> I’m Francise</tspan><tspan class="cls-20" x="175.05" y="0">.</tspan><tspan class="cls-19" x="0" y="32.74">A</tspan><tspan x="15.35" y="32.74" xml:space="preserve">                                    based in London</tspan><tspan class="cls-20" x="447.87" y="32.74">.</tspan></text>
-    <path class="cls-26" d="M1477.22,1024.26l-5.76-5.76.94-.94,3.94,3.94.53.74.24-.07-.1-.91v-13.99h1.39v13.99l-.1.91.24.07.53-.74,3.94-3.94.94.94-5.76,5.76h-.96Z"/>
-    <text class="cls-5" transform="translate(1026.97 1025.72)"><tspan x="0" y="0">2021</tspan><tspan class="cls-25" x="40.57" y="0" xml:space="preserve"> -</tspan><tspan x="52.49" y="0" xml:space="preserve"> 2024</tspan></text>
-    <text class="cls-7" transform="translate(1732.07 648.57)"><tspan class="cls-10" x="0" y="0">.</tspan><tspan x="2.4" y="0" xml:space="preserve"> 024</tspan></text>
-    <text class="cls-7" transform="translate(381.98 648.34)"><tspan x="0" y="0" xml:space="preserve">ANIMATION     </tspan><tspan class="cls-18" x="77.42" y="0" xml:space="preserve"> -</tspan><tspan class="cls-1" x="85.37" y="0" xml:space="preserve">      DESIGN     </tspan><tspan class="cls-18" x="160.23" y="0" xml:space="preserve"> -</tspan><tspan x="168.18" y="0" xml:space="preserve">      3D</tspan></text>
-    <text class="cls-5" transform="translate(90.96 1024.41)"><tspan x="0" y="0">Por</tspan><tspan class="cls-11" x="28.6" y="0">t</tspan><tspan class="cls-21" x="36.34" y="0">folio</tspan><tspan class="cls-18" x="75.15" y="0" xml:space="preserve"> -</tspan><tspan x="87.06" y="0" xml:space="preserve"> 24</tspan></text>
-    <g>
-      <polyline class="cls-17" points="1830.7 632.01 1830.7 648.34 1814.37 648.34"/>
-      <polyline class="cls-17" points="1814.37 350.69 1830.7 350.69 1830.7 367.02"/>
-    </g>
-    <g>
-      <polyline class="cls-17" points="90.7 632.01 90.7 648.34 107.04 648.34"/>
-      <polyline class="cls-17" points="107.04 350.69 90.7 350.69 90.7 367.02"/>
-    </g>
-    <rect class="cls-26" x="1475.68" y="849.34" width="3.93" height="3.93"/>
-    <rect class="cls-26" x="1026.05" y="340.08" width="3.93" height="3.93"/>
-    <rect class="cls-26" x="1036.78" y="340.08" width="3.93" height="3.93"/>
-    <text class="cls-6" transform="translate(1049.5 741.95)"><tspan x="0" y="0">MOTION DESIGNER</tspan></text>
-    <rect class="cls-3" x="1818.65" y="1012.87" width="13.78" height="13.78"/>
-    <g>
-      <line class="cls-13" x1="1825.54" y1="1015.76" x2="1825.54" y2="1023.76"/>
-      <line class="cls-13" x1="1829.54" y1="1019.76" x2="1821.54" y2="1019.76"/>
-    </g>
-    <rect class="cls-15" x="1025.14" y="350.69" width="452.5" height="297.65"/>
-    <line class="cls-14" x1="1477.64" y1="499.52" x2="1350.74" y2="499.52"/>
-    <g>
-      <line class="cls-14" x1="1241.52" y1="499.52" x2="1261.26" y2="499.52"/>
-      <line class="cls-14" x1="1251.39" y1="489.64" x2="1251.39" y2="509.39"/>
-    </g>
-    <rect class="cls-14" x="1025.14" y="350.69" width="452.5" height="297.65"/>
-    <g>
-      <polyline class="cls-14" points="1159.14 484.4 1152.03 484.4 1152.03 514.63 1159.14 514.63"/>
-      <polyline class="cls-14" points="1343.63 514.63 1350.74 514.63 1350.74 484.4 1343.63 484.4"/>
-    </g>
-    <line class="cls-14" x1="1152.03" y1="499.52" x2="1025.14" y2="499.52"/>
-    <rect class="cls-3" x="1729.83" y="492.01" width="100.87" height="13.78"/>
-    <rect class="cls-3" x="90.7" y="492.01" width="28.74" height="13.78"/>
-    <text class="cls-8" transform="translate(1732.83 503.44)"><tspan x="0" y="0">CN</tspan><tspan class="cls-12" x="15.62" y="0" xml:space="preserve"> -</tspan><tspan class="cls-22" x="23.57" y="0"> </tspan><tspan x="26.38" y="0">TER.21</tspan></text>
-    <rect class="cls-24" x="1822.57" y="497.55" width="3.93" height="3.93"/>
-    <rect class="cls-24" x="96.91" y="497.55" width="3.93" height="3.93"/>
-    <g>
-      <rect class="cls-3" x="1513.7" y="492.01" width="13.78" height="13.78" transform="translate(2019.49 -1021.69) rotate(90)"/>
-      <polygon points="1517.57 498.9 1522.1 501.51 1522.1 496.28 1517.57 498.9"/>
-    </g>
+  <g>
+    <polyline class="cls-14" points="90.7 632.01 90.7 648.34 107.04 648.34"/>
+    <polyline class="cls-14" points="107.04 350.69 90.7 350.69 90.7 367.02"/>
+  </g>
+  <rect class="cls-23" x="1475.68" y="849.34" width="3.93" height="3.93"/>
+  <rect class="cls-23" x="1026.05" y="340.08" width="3.93" height="3.93"/>
+  <rect class="cls-23" x="1036.78" y="340.08" width="3.93" height="3.93"/>
+  <text class="cls-4" transform="translate(1049.5 741.95)"><tspan x="0" y="0">MOTION DESIGNER</tspan></text>
+  <rect class="cls-13" x="1025.14" y="350.69" width="452.5" height="297.65"/>
+  <line class="cls-12" x1="1477.64" y1="499.52" x2="1350.74" y2="499.52"/>
+  <g>
+    <line class="cls-12" x1="1241.52" y1="499.52" x2="1261.26" y2="499.52"/>
+    <line class="cls-12" x1="1251.39" y1="489.64" x2="1251.39" y2="509.39"/>
+  </g>
+  <rect class="cls-12" x="1025.14" y="350.69" width="452.5" height="297.65"/>
+  <g>
+    <polyline class="cls-12" points="1159.14 484.4 1152.03 484.4 1152.03 514.63 1159.14 514.63"/>
+    <polyline class="cls-12" points="1343.63 514.63 1350.74 514.63 1350.74 484.4 1343.63 484.4"/>
+  </g>
+  <line class="cls-12" x1="1152.03" y1="499.52" x2="1025.14" y2="499.52"/>
+  <rect class="cls-3" x="1729.83" y="492.01" width="100.87" height="13.78"/>
+  <rect class="cls-3" x="90.7" y="492.01" width="28.74" height="13.78"/>
+  <text class="cls-7" transform="translate(1732.83 503.44)"><tspan x="0" y="0">CN</tspan><tspan class="cls-10" x="15.62" y="0" xml:space="preserve"> -</tspan><tspan class="cls-19" x="23.57" y="0"> </tspan><tspan x="26.38" y="0">TER.21</tspan></text>
+  <rect class="cls-22" x="1822.57" y="497.55" width="3.93" height="3.93"/>
+  <rect class="cls-22" x="96.91" y="497.55" width="3.93" height="3.93"/>
+  <g>
+    <rect class="cls-3" x="1513.7" y="492.01" width="13.78" height="13.78" transform="translate(2019.49 -1021.69) rotate(90)"/>
+    <polygon points="1517.57 498.9 1522.1 501.51 1522.1 496.28 1517.57 498.9"/>
+  </g>
+  <path class="cls-20" d="M1476.51,1023.19l-5.76-5.76.94-.94,3.94,3.94.53.74.24-.07-.1-.91v-13.99h1.39v13.99l-.1.91.24.07.53-.74,3.94-3.94.94.94-5.76,5.76h-.96Z"/>
+  <text class="cls-6" transform="translate(90.25 1025.59)"><tspan x="0" y="0">Por</tspan><tspan class="cls-9" x="28.6" y="0">t</tspan><tspan class="cls-18" x="36.34" y="0">folio</tspan><tspan class="cls-15" x="75.15" y="0" xml:space="preserve"> -</tspan><tspan x="87.06" y="0" xml:space="preserve"> 24</tspan></text>
+  <rect class="cls-20" x="1817.94" y="1011.81" width="13.78" height="13.78"/>
+  <g>
+    <line class="cls-11" x1="1824.83" y1="1014.7" x2="1824.83" y2="1022.7"/>
+    <line class="cls-11" x1="1828.83" y1="1018.7" x2="1820.83" y2="1018.7"/>
   </g>
 </svg>
