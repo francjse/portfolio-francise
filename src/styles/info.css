@@ -23,10 +23,10 @@
 
 .video-overlay {
   position: absolute;
-  top: 24%; /* Adjust to match SVG positioning */
+  top: 22%; /* Adjust to match SVG positioning */
   left: 53%; /* Adjust to match SVG positioning */
   width: 22%; /* Match the SVG box width */
-  height: 22%; /* Match the SVG box height */
+  height: 23.5%; /* Match the SVG box height */
   z-index: -1; /* Ensure it overlays the SVG */
   object-fit:cover;
   pointer-events: none; /* Allow interactions to pass through */

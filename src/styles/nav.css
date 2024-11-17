@@ -38,15 +38,12 @@ a.nav-link {
     text-decoration: none; /* Remove underline */
     color: white; /* Default link color */
     transition: opacity 0.3s ease;
-    padding-left: 2px;
-    padding-right: 2px;
 }
 
 .page-title {
     font-size: 1.1rem;
     cursor: default;
     text-transform: uppercase; /* Optional styling for titles */
-
 }
 
 .nav-link {
