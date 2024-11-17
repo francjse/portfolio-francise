@@ -1,13 +1,13 @@
 /* Logo container to keep it fixed in the top-left corner */
 .logo-container {
     position: fixed;
-    top: 2%; /* Spacing from the top */
-    left: 8%; /* Spacing from the left */
+    top: 3%; /* Spacing from the top */
+    left: 8.22%; /* Spacing from the left */
     z-index: 1001; /* Ensures it stays on top of other elements */
 }
 
 .logo-icon {
-    width: 3rem; /* Adjust size as needed */
+    width: 2.5rem; /* Adjust size as needed */
     height: auto;
 }
 
@@ -17,8 +17,8 @@
     display: flex;
     align-items: center;
     top: 3%;
-    right: 30rem; /* Align navigation links to the right */
-    gap: 3.4rem;
+    right: 31.35rem; /* Align navigation links to the right */
+    gap: 2.7rem;
     z-index: 1000; /* Ensures it stays below the logo */
 }
 
@@ -38,6 +38,8 @@ a.nav-link {
     text-decoration: none; /* Remove underline */
     color: white; /* Default link color */
     transition: opacity 0.3s ease;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .page-title {

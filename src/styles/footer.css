@@ -9,7 +9,7 @@
     background-color: transparent;
     position: fixed;
     bottom: 2%; /* Align footer with similar top spacing as the navbar */
-    left: 6%; /* Same as .logo-container's left spacing */
+    left: 5.5%; /* Same as .logo-container's left spacing */
     right: 5.6%; /* Same as .nav's right spacing */
     z-index: 1000; /* Ensure it stays above other content but below navigation */
 }

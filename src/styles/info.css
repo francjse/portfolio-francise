@@ -17,7 +17,7 @@
   max-width: 86%; /* Limits SVG width for large screens */
   max-height: 100%; /* Ensures the SVG doesn’t exceed the viewport height */
   height: auto;
-  filter: brightness(1.2) drop-shadow(4px 4px 3px rgba(255, 255, 255, 0.3)); /* Increase brightness and add a shadow */
+  filter: brightness(1.5) drop-shadow(4px 4px 1.75px rgba(255, 255, 255, 0.2)); /* Increase brightness and add a shadow */
   margin-top: -200px;
 }
 
