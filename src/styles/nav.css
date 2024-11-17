@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     top: 3%;
-    right: 31.35rem; /* Align navigation links to the right */
+    right: 26.5%; /* Align navigation links to the right */
     gap: 2.7rem;
     z-index: 1000; /* Ensures it stays below the logo */
 }
